@@ -1,6 +1,6 @@
 # api-adonis-reto
 
-API REST que gestiona los movimentos de clientes.
+API REST que gestiona los movimientos de clientes.
 
 ---
 
