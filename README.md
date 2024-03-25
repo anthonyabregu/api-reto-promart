@@ -32,7 +32,7 @@ $ cp .env.example .env
 $ DB_HOST=mysql-eamtec-bd-2023-10-10-do-user-14673335-0.b.db.ondigitalocean.com
 $ DB_PORT=25060
 $ DB_USER=doadmin
-$ DB_PASSWORD=password_
+$ DB_PASSWORD=
 $ DB_DATABASE=reto_promart
 
 # Configurar las variables generales del proyecto
