@@ -1,0 +1,24 @@
+{"level":30,"time":1711317645050,"pid":15544,"hostname":"DESKTOP-80D3L1F","msg":"started HTTP server on localhost:3333"}
+{"level":30,"time":1711317698764,"pid":12560,"hostname":"DESKTOP-80D3L1F","msg":"started HTTP server on localhost:3333"}
+{"level":50,"time":1711317702572,"pid":12560,"hostname":"DESKTOP-80D3L1F","msg":"Token de autenticación no proporcionado"}
+{"level":30,"time":1711317925149,"pid":13640,"hostname":"DESKTOP-80D3L1F","msg":"started HTTP server on localhost:3333"}
+{"level":50,"time":1711317930699,"pid":13640,"hostname":"DESKTOP-80D3L1F","msg":"Error en AuthMiddleware"}
+{"level":30,"time":1711317973818,"pid":5656,"hostname":"DESKTOP-80D3L1F","msg":"started HTTP server on localhost:3333"}
+{"level":50,"time":1711317979652,"pid":5656,"hostname":"DESKTOP-80D3L1F","msg":"Error en AuthMiddleware"}
+{"level":30,"time":1711318069212,"pid":11420,"hostname":"DESKTOP-80D3L1F","msg":"started HTTP server on localhost:3333"}
+{"level":30,"time":1711318080267,"pid":11420,"hostname":"DESKTOP-80D3L1F","msg":"Page: 0, Perpage: 10"}
+{"level":30,"time":1711318237854,"pid":9940,"hostname":"DESKTOP-80D3L1F","msg":"started HTTP server on localhost:3333"}
+{"level":30,"time":1711318243582,"pid":7740,"hostname":"DESKTOP-80D3L1F","msg":"started HTTP server on localhost:3333"}
+{"level":30,"time":1711318257574,"pid":7740,"hostname":"DESKTOP-80D3L1F","msg":"ClientsController.index"}
+{"level":30,"time":1711318306071,"pid":14748,"hostname":"DESKTOP-80D3L1F","msg":"started HTTP server on localhost:3333"}
+{"level":30,"time":1711318308911,"pid":14748,"hostname":"DESKTOP-80D3L1F","msg":"ClientsController.index: 0"}
+{"level":30,"time":1711318478131,"pid":1724,"hostname":"DESKTOP-80D3L1F","msg":"started HTTP server on localhost:3333"}
+{"level":30,"time":1711318510098,"pid":1376,"hostname":"DESKTOP-80D3L1F","msg":"started HTTP server on localhost:3333"}
+{"level":30,"time":1711318546315,"pid":12396,"hostname":"DESKTOP-80D3L1F","msg":"started HTTP server on localhost:3333"}
+{"level":30,"time":1711318576543,"pid":17200,"hostname":"DESKTOP-80D3L1F","msg":"started HTTP server on localhost:3333"}
+{"level":50,"time":1711318580702,"pid":17200,"hostname":"DESKTOP-80D3L1F","msg":"AuthMiddleware: Token de autenticación no proporcionado"}
+{"level":30,"time":1711318767206,"pid":11848,"hostname":"DESKTOP-80D3L1F","msg":"started HTTP server on localhost:3333"}
+{"level":30,"time":1711318799680,"pid":10892,"hostname":"DESKTOP-80D3L1F","msg":"started HTTP server on localhost:3333"}
+{"level":30,"time":1711318817868,"pid":10696,"hostname":"DESKTOP-80D3L1F","msg":"started HTTP server on localhost:3333"}
+{"level":30,"time":1711318983811,"pid":14692,"hostname":"DESKTOP-80D3L1F","msg":"started HTTP server on localhost:3333"}
+{"level":50,"time":1711318986897,"pid":14692,"hostname":"DESKTOP-80D3L1F","msg":"AuthMiddleware: Token de autenticación no proporcionado"}
