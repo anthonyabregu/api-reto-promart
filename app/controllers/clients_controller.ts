@@ -9,7 +9,7 @@ export default class ClientsController {
    */
   async index({ request, response }: HttpContext) {
     let { page, perpage } = request.qs()
-    page = page ? parseInt(page) * perpage : 0
+    page = page ? (parseInt(page) - 1) * perpage : 0
     perpage = perpage ? parseInt(perpage) : 10
 
     const clients = await Client.query()
@@ -18,7 +18,9 @@ export default class ClientsController {
       .offset(page)
       .limit(perpage)
 
-    return response.status(200).json({ data: clients })
+    const totalClientes = await Client.query().select('id').where('status', 1)
+
+    return response.status(200).json({ data: clients, total: totalClientes.length })
   }
 
   /**
