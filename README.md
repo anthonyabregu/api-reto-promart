@@ -39,9 +39,9 @@ $ TZ='America/Lima'
 $ PORT=3333
 $ HOST=localhost
 $ LOG_LEVEL=info
-$ APP_KEY=3LSn3hiZo3ZVbOLaXXcQdYlSJ__D6Bh_
+$ APP_KEY=`${API_KEY}`
 $ NODE_ENV=development
-$ AUTH_TOKEN=kw9D78L2P2UlhA6oGsxI
+$ AUTH_TOKEN=`${DB_DATABASE}`
 
 
 ### `BACK-END (Adonis + Lucid)`
@@ -58,14 +58,15 @@ $ pm2 start ace.js --name "apiReto"
 $ pm2 update
 $ pm2 logs apiReto
 ````
+
 ### `RUTAS DEL API`
 
 ```bash
 # Rutas de Cliente
 $ API_RETO_PROMART = http://localhost:3333/ (default)
 
-{{API_RETO_PROMART}}/client (GET) : Listar los clientes registrados 
-{{API_RETO_PROMART}}/client/:id (GET): Listar un cliente por su ID 
+{{API_RETO_PROMART}}/client (GET) : Listar los clientes registrados
+{{API_RETO_PROMART}}/client/:id (GET): Listar un cliente por su ID
 {{API_RETO_PROMART}}/client (POST): Agregar un nuevo cliente
 {{API_RETO_PROMART}}/client/:id (PUT): Actualizar los datos de un cliente
 {{API_RETO_PROMART}}/client/:id (DELETE): Eliminación lógica de un cliente
