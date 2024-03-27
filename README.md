@@ -42,6 +42,8 @@ $ LOG_LEVEL=info
 $ APP_KEY=`${API_KEY}`
 $ NODE_ENV=development
 $ AUTH_TOKEN=`${DB_DATABASE}`
+$ NODE_ENV=development
+$ AUTH_TOKEN=kw9D78L2P2UlhA6oGsxI
 
 
 ### `BACK-END (Adonis + Lucid)`
