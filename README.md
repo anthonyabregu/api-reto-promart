@@ -39,6 +39,9 @@ $ TZ='America/Lima'
 $ PORT=3333
 $ HOST=localhost
 $ LOG_LEVEL=info
+$ APP_KEY=`${API_KEY}`
+$ NODE_ENV=development
+$ AUTH_TOKEN=kw9D78L2P2UlhA6oGsxI
 
 
 ### `BACK-END (Adonis + Lucid)`
