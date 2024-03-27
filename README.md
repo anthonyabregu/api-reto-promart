@@ -39,8 +39,6 @@ $ TZ='America/Lima'
 $ PORT=3333
 $ HOST=localhost
 $ LOG_LEVEL=info
-$ APP_KEY=`${API_KEY}`
-$ AUTH_TOKEN=`${TOKEN}`
 
 
 ### `BACK-END (Adonis + Lucid)`
