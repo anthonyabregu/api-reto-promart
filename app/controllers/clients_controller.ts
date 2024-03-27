@@ -136,14 +136,14 @@ export default class ClientsController {
           logger.error(`ClientsController.update: El email ya está registrado en la base de datos`)
           return response
             .status(400)
-            .json({ message: 'Error: El email ya está registrado en la base de datos' })
+            .json({ error: 'Error: El email ya está registrado en la base de datos' })
         }
       }
 
       // Validar la fecha de nacimiento
       const validationResult = validateBirthdate(new Date(data.birthdate))
       if (!validationResult.status) {
-        return response.status(400).json({ message: validationResult.message })
+        return response.status(400).json({ error: validationResult.message })
       }
 
       // CALCULANDO EDAD
@@ -160,7 +160,7 @@ export default class ClientsController {
         )
         return response
           .status(400)
-          .json({ message: 'Error: Todos los campos son obligatorios, excepto mothers_surname' })
+          .json({ error: 'Error: Todos los campos son obligatorios, excepto mothers_surname' })
       }
 
       const { name, surname, mothers_surname, email, birthdate } = data
@@ -194,7 +194,7 @@ export default class ClientsController {
     const client = await Client.find(id)
     if (!client) {
       logger.error(`ClientsController.destroy: El cliente no existe en la base de datos`)
-      return response.status(404).json({ message: 'Client no encontrado en la base de datos' })
+      return response.status(404).json({ error: 'Client no encontrado en la base de datos' })
     }
 
     client.status = 0
