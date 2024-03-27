@@ -63,8 +63,6 @@ $ pm2 logs apiReto
 
 ### `RUTAS DEL API`
 
-```bash
-# Rutas de Cliente
 $ API_RETO_PROMART = http://localhost:3333/ (default)
 
 {{API_RETO_PROMART}}/client (GET) : Listar los clientes registrados
@@ -72,5 +70,3 @@ $ API_RETO_PROMART = http://localhost:3333/ (default)
 {{API_RETO_PROMART}}/client (POST): Agregar un nuevo cliente
 {{API_RETO_PROMART}}/client/:id (PUT): Actualizar los datos de un cliente
 {{API_RETO_PROMART}}/client/:id (DELETE): Eliminación lógica de un cliente
-
-```
